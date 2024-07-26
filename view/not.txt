@@ -1,0 +1,12 @@
+<div class="star" style="display: flex; align-items: center;">';
+                      for ($i = 1; $i <= $star; $i++) {
+                        echo '<i class="bx bxs-star" style="color: gold;" data-value="'.$i.'"></i>';
+                      }
+                       
+                      echo '<p class="red">('.$total_reviews.')</p></div>
+
+
+
+              echo '<i class="fas fa-star" style="color: gold; margin-top:10px" data-value="'.$i.'"></i>';
+echo '<span style="margin-left:20px">'.$reviews.' Đánh giá</span>
+                  <span style="margin-left:20px">7291 Số lượt thích</span>';
