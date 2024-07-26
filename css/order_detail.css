@@ -1,0 +1,75 @@
+.container-order {
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 20px;
+}
+
+.container-order table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+  line-height: 50px;
+  font-size: 15px;
+}
+
+.container-order table tr th {
+  color: rgba(0, 0, 0, 0.699);
+}
+
+.container-order table tr td {
+  text-align: center;
+  color: rgba(3, 3, 3, 0.76);
+}
+
+.container-order table tr td a {
+  color: brown;
+  text-decoration: none;
+}
+
+.container-order table tr th:nth-child(1),
+.container-order table tr th:nth-child(2),
+.container-order table tr th:nth-child(3),
+.container-order table tr th:nth-child(4),
+.container-order table tr th:nth-child(5),
+.container-order table tr th:nth-child(6) {
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+}
+
+.container-order table tr td:nth-child(1),
+.container-order table tr td:nth-child(2),
+.container-order table tr td:nth-child(3),
+.container-order table tr td:nth-child(4),
+.container-order table tr td:nth-child(5),
+.container-order table tr td:nth-child(6) {
+  border-left: 1px solid white;
+  /* border-top: 1px solid white; */
+  border-right: 1px solid white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+table #status {
+  color: #ffffff;
+  background: #e94c37;
+  font-weight: bold;
+  padding: 5px 30px;
+  border-radius: 10px;
+}
+
+table #status1 {
+  color: #ffffff;
+  background-color: #f0cd6c;
+  font-weight: bold;
+  padding: 5px 30px;
+  border-radius: 10px;
+}
+
+table #status2 {
+  color: #ffffff;
+  background: #bcf5bc;
+  font-weight: bold;
+  padding: 5px 30px;
+  border-radius: 10px;
+}

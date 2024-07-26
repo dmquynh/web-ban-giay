@@ -1,0 +1,128 @@
+.container_view {
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 20px;
+}
+
+.order-view-content {
+  /* background-color: rgb(251, 255, 0); */
+  height: 161px;
+  padding: 17px;
+}
+
+.order-view-content p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.733);
+  line-height: 36px;
+}
+
+.order-view-content b {
+  color: rgba(0, 0, 0, 0.836);
+  margin-left: 5px;
+}
+
+.order-box-title {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  /* background-color: yellowgreen; */
+  margin-top: 20px;
+}
+
+.order-box-title div p {
+  color: rgba(0, 0, 0, 0.897);
+}
+
+.order-view-info {
+  font-size: 13px;
+  line-height: 22px;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+
+.order-view-info p {
+  font-weight: 100;
+}
+
+.order-view-box {
+  border: 1px solid rgba(0, 0, 0, 0.096);
+}
+
+.order-view-box hr {
+  border: 1px solid rgba(0, 0, 0, 0.041);
+}
+
+.order-subOrder-container {
+  margin-top: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+table tr th {
+  height: 50px;
+}
+
+table tr th:nth-child(1),
+table tr th:nth-child(2),
+table tr th:nth-child(3),
+table tr th:nth-child(4),
+table tr th:nth-child(5) {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+}
+
+table tr td:nth-child(1),
+table tr td:nth-child(2),
+table tr td:nth-child(3),
+table tr td:nth-child(4),
+table tr td:nth-child(5) {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-top: 1px solid rgba(0, 0, 0, 0.082);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.062);
+}
+
+table tr td img {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  padding: 10px;
+}
+
+.order-subOrder-total-desktop {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+#status {
+  color: #f81d00;
+  background: #ec7160;
+  font-weight: bold;
+  padding: 1px 20px;
+  border-radius: 10px;
+}
+
+#status1 {
+  color: #fc9003;
+  background-color: #f0cd6c;
+  font-weight: bold;
+  padding: 1px 20px;
+  border-radius: 10px;
+}
+
+#status2 {
+  color: #2b752b;
+  background: #bcf5bc;
+  font-weight: bold;
+  padding: 1px 20px;
+  border-radius: 10px;
+}

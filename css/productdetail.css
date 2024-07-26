@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-detail {
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 20px;
+}
+
+.product-detail {
+  display: grid;
+  grid-template-columns: 550px auto;
+  margin-bottom: 180px;
+}
+
+.left {
+  width: 580px;
+  height: 480px;
+}
+
+.left .slideshow-container {
+  position: relative;
+}
+
+.left .slides img {
+  width: 100%;
+  display: none;
+}
+
+.left .gallery{
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 130px;
+  margin-top: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.left .gallery img {
+  width: 135px;
+  height: 130px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.left .gallery .active {
+  box-shadow: 0 0 0 2px #dd451b;
+}
+
+.left img {
+  width: 550px;
+  height: 480px;
+}
+
+
+
+.slideshow-container .prev1,
+.slideshow-container .next1 {
+  position: absolute;
+  top: 220px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slideshow-container .next1 {
+  left: 550px;
+}
+
+.right {
+  /* line-height: 30px; */
+  padding: 20px;
+  margin-left: 45px;
+}
+
+.right h4 {
+  font-weight: 900;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.right h3 {
+  font-size: 30px;
+  padding: 40px 0px;
+  color: brown;
+  width: 150px;
+}
+
+.right p a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.856);
+}
+
+.right p a:hover {
+  text-decoration: underline;
+}
+
+.quantity {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100px;
+  margin-top: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  text-align: center;
+}
+
+.quantity span {
+  width: 50px;
+  font-size: 25px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  color: rgba(0, 0, 0, 0.534);
+}
+
+.right form {
+  margin-top: 40px;
+}
+
+.right form input[type="submit"]:nth-child(1) {
+  background-color: #f2250a;
+  border: 1px solid #f2250a;
+  padding: 10px 30px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.right form input[type="submit"]:nth-child(1):hover {
+  opacity: 0.8;
+}
+
+.right #add_cart:hover {
+  opacity: 0.8;
+}
+
+.right #add_cart {
+  border: 1px solid #f2250a;
+  background-color: white;
+  padding: 10px 50px;
+  color: #f2250a;
+  margin-left: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.wrapper {
+  background-color: rgb(255, 255, 255);
+  margin-top: 40px;
+}
+
+.nav-tabs {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 4px solid #ddd;
+}
+
+.nav-tabs li a {
+  display: block;
+  padding: 6px 6px;
+  text-decoration: none;
+  position: relative;
+  color: rgb(0, 0, 0);
+}
+
+.nav-tabs li {
+  margin-right: 10px;
+}
+
+.nav-tabs li a::after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: -3px;
+  /* background: #e74c3c; */
+  background: transparent;
+}
+
+.nav-tabs li.active a::after,
+.nav-tabs li:hover a::after {
+  background: #a85032;
+}
+
+.tab-content {
+  padding: 20px 0px;
+}
+
+#menu_2 form input[type="text"] {
+  height: 38px;
+  width: 365px;
+  padding-left: 10px;
+  font-size: 15px;
+  border: 1px solid rgb(219, 214, 214);
+  outline: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#menu_2 form input[type="text"]:focus {
+  box-shadow: 0 0 0 3px #e65757;
+}
+
+#menu_2 form {
+  margin-top: 20px;
+}
+
+#menu_2 form p {
+  margin-left: 10px;
+}
+
+#menu_2 .star {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#menu_2 .star i {
+  font-size: 40px;
+  color: gold;
+}
+
+#menu_2 textarea {
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 1px solid rgb(219, 214, 214);
+}
+
+#menu_2 textarea:focus {
+  box-shadow: 0 0 0 3px brown;
+}
+
+#menu_2 input[type="submit"] {
+  background-color: #9f361a;
+  border: 1px solid #9f361a;
+  color: white;
+  padding: 10px 50px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+#menu_2 input[type="submit"]:hover {
+  background-color: #dd451b;
+  border: 1px solid #dd451b;
+}
+
+.right .price1 {
+  display: flex;
+}
+
+.right .price1 del {
+  display: flex;
+}
+
+.price1 del {
+  display: flex;
+  align-items: center;
+}
+
+/*COMMENT*/
+.comment {
+  display: grid;
+  grid-template-columns: 75px auto;
+  padding-top: 20px;
+}
+
+
+
+.customer-comment1 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 12px;
+}
+
+.customer-comment p {
+  font-size: 13px;
+}
+
+.customer-comment .star i {
+  color: gold;
+}
+
+.customer-comment span {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.568);
+  height: 20px;
+}
+
+.likes {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.likes input[type="submit"] {
+  border: none;
+  background: none;
+}
+/*COMMENT*/
+
+/*QUANTITY*/
+.box-quantity {
+  width: 180px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-quantity span {
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.144);
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  color: rgba(0, 0, 0, 0.473);
+}
+
+#quantity {
+  height: 30px;
+  width: 40px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.144);
+}
+/*QUANTITY*/
+
+/*SIZE*/
+.box-size {
+  display: flex;
+  align-items: center;
+}
+
+.box-size li {
+  list-style: none;
+  padding: 0 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 8px 10px;
+}
+
+.size {
+  display: flex;
+  margin-left: 30px;
+}
+
+.box-size .active {
+  border: 2px solid red;
+}
+
+.not{
+  height: 50px;
+  transform: translateY(-20px);
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+  border-left: 1px solid rgba(0, 0, 0, 0.144);
+  border-right: 1px solid rgba(0, 0, 0, 0.103);
+}
+
+.customer-comment::before{
+  content: '';
+  background-color: rgba(0, 0, 0, 0.171);
+  width: 98%;
+  height: 1px;
+  position: absolute;
+  margin-left: -70px;
+  margin-top: -10px;
+}
+
+
+/*SIZE*/
+
+/*IFRAME COMMENT*/
+
+/*IFRAME COMMENT/

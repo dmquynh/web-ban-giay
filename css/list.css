@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  display: flex;
+  padding: 10px;
+}
+
+.container-products {
+  width: 1049px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.container-products .head h2 {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.568);
+}
+
+.container-products .head button {
+  left: 770px;
+  position: relative;
+  background-color: #9f361a;
+  border: 1px solid #9f361a;
+  border-radius: 10px;
+  color: white;
+  font-weight: 800;
+  padding: 14px;
+}
+
+.container-products .head button a {
+  text-decoration: none;
+  color: white;
+}
+
+.container-products .head button:hover {
+  background-color: #cf3d14;
+  border: 1px solid #cf3d14;
+}
+
+.container-content {
+  height: 1000px;
+  border: 1px solid rgba(0, 0, 0, 0.062);
+  border-radius: 20px;
+  position: relative;
+  top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.container-content .search-filter {
+  display: flex;
+  position: relative;
+  top: 30px;
+  height: 90px;
+}
+
+.container-content .search-filter select {
+  padding: 8px;
+  width: 140px;
+  position: relative;
+  left: 570px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.39);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+.container-content .search-filter input[type="text"] {
+  padding: 13px;
+  width: 260px;
+  position: relative;
+  left: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+.container-content .search-filter input[type="text"]:focus,
+.container-content .search-filter select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #9f361a;
+}
+
+.container-content .search-filter input[type="text"]::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.list-products {
+  position: relative;
+  top: 0px;
+}
+
+.list-products table {
+  width: 100%;
+  border-collapse: collapse;
+  font-weight: bold;
+  color: #5c6c75c7;
+  font-size: 14px;
+}
+
+.list-products table tr:nth-child(1) {
+  height: 48.39px;
+  background-color: #dfe2e17a;
+}
+
+.list-products table tr td {
+  height: 48.39px;
+}
+
+table .hover-products:hover {
+  background-color: #dfe2e17a;
+}
+
+.url a {
+  text-decoration: none;
+  position: relative;
+  left: 10px;
+  color: rgba(0, 0, 0, 0.582);
+  font-weight: bold;
+}
+
+.manage {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px rgb(247, 247, 247);
+  position: absolute;
+  width: 160px;
+  height: 78px;
+  left: -135px;
+  display: none;
+  list-style: none;
+  top: -5px;
+}
+
+.manage a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.562);
+}
+
+.manage li:hover {
+  background-color: #dfede3;
+}
+
+.manage a li {
+  height: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 7px;
+  margin-left: 6px;
+  margin-right: 6px;
+  border-radius: 5px;
+}
+
+.manage span {
+  margin-left: 10px;
+}
+
+.dots:hover .manage {
+  display: block;
+}
+
+/*=========================================*/

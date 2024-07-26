@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-contact {
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 20px;
+}
+
+.content-contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.content-info h4 {
+  height: 30px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.content-info div {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.content-info div span {
+  margin-left: 10px;
+}
+
+.content-info form {
+  margin-top: 20px;
+}
+
+.content-info form p {
+  padding-top: 20px;
+}
+
+.content-info form input[type="text"] {
+  width: 600px;
+  height: 33px;
+  padding-left: 20px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.content-info form textarea {
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  border-radius: 5px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.596);
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.content-info form input[type="text"]:focus,
+.content-info form textarea:focus {
+  box-shadow: 0 0 0 3px #e65757;
+}
+
+.content-info form input[type="submit"] {
+  margin-top: 20px;
+  background-color: rgba(159, 54, 26);
+  border: 1px solid rgba(159, 54, 26);
+  color: white;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+.content-info form input[type="submit"]:hover {
+  background-color: rgb(221, 74, 33);
+  border: 1px solid rgb(221, 74, 33);
+}

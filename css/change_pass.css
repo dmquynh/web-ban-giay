@@ -1,0 +1,59 @@
+.container-changepass h2,
+span {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.733);
+}
+
+hr {
+  margin-top: 10px;
+}
+
+form {
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+form label {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.733);
+}
+
+form #input1 {
+  margin-left: 100px;
+  height: 40px;
+  width: 351px;
+  padding-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  outline: none;
+}
+
+form #input1:focus,
+form #input2:focus,
+form #input3:focus {
+  outline: 1px solid black;
+}
+
+form #input2 {
+  margin-left: 90px;
+  height: 40px;
+  width: 351px;
+  padding-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  outline: none;
+}
+
+form #input3 {
+  margin-left: 56px;
+  height: 40px;
+  width: 351px;
+  padding-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  outline: none;
+}
+
+form #xacnhan {
+  margin-left: 177px;
+  margin-top: 20px;
+  width: 100px;
+  padding-left: 16px;
+}

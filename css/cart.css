@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-cart {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.container-cart h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(0, 0, 0, 0.63);
+  padding: 20px 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  margin-top: 20px;
+}
+
+table tr th {
+  color: rgba(0, 0, 0, 0.767);
+}
+
+table .pro-info {
+  display: flex;
+  padding: 13px;
+}
+
+table .pro-info img {
+  width: 109px;
+  height: 109px;
+}
+
+table .content {
+  position: relative;
+  left: 25px;
+  line-height: 25px;
+}
+
+table .content h5 {
+  color: rgba(0, 0, 0, 0.829);
+}
+
+table .content a {
+  text-decoration: none;
+}
+
+table .content h5:hover {
+  color: brown;
+}
+
+table .content p {
+  font-size: 14px;
+}
+
+table .content span a {
+  color: brown;
+}
+
+table .content span a:hover {
+  color: rgb(199, 46, 46);
+}
+
+/* table .title {
+  height: 30px;
+  padding-left: 20px;
+  transform: translateX(-182px);
+} */
+
+table .quantity #sl {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 122px;
+  position: relative;
+  left: 58px;
+  /* border: 1px solid rgba(0, 0, 0, 0.082); */
+}
+
+table .quantity #sl1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 214px;
+  position: relative;
+  left: 31px;
+  padding: 10px;
+  /* border: 1px solid rgba(0, 0, 0, 0.082); */
+}
+
+table .quantity input[type="text"] {
+  width: 50px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  outline: none;
+}
+
+table .quantity input[type="submit"] {
+  opacity: 1;
+  margin-left: 15px;
+  width: 100px;
+  margin-top: 5px;
+}
+
+table .quantity .span1:hover {
+  color: red;
+}
+
+table .quantity .span1 {
+  cursor: pointer;
+  font-size: 26px;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  color: rgba(0, 0, 0, 0.534);
+}
+
+table .quantity span i {
+  height: 26px;
+}
+
+table .pay {
+  margin-top: 40px;
+}
+
+table .pay a {
+  text-decoration: none;
+  padding: 15px 150px;
+  background-color: rgb(197, 59, 59);
+  color: white;
+  border-radius: 10px;
+}
+
+table .pay a:hover {
+  background-color: rgb(236, 50, 50);
+}
+
+#show {
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  /* display: flex; */
+  left: 669px;
+  height: 170px;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.205);
+  margin-top: -17px;
+}
+
+#close {
+  cursor: pointer;
+  left: 139px;
+  position: relative;
+}
+
+/*SIZE*/
+.box-size {
+  font-size: 13px;
+  position: absolute;
+  left: 0px;
+  background: #ffffff;
+  top: 81px;
+  box-shadow: 0 0 4px 0px black;
+  z-index: 1;
+  padding: 10px;
+}
+
+.box-size::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 10px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid #ffffff;
+  top: -20px;
+}
+
+.box-size li {
+  list-style: none;
+  padding: 0 10px;
+  cursor: pointer;
+  padding: 8px 10px;
+  position: relative;
+  left: -21px;
+}
+
+.size {
+  display: flex;
+  margin-left: 10px;
+}
+
+.box-size .active {
+  border: 2px solid red;
+}
+
+.not {
+  height: 50px;
+  transform: translateY(-20px);
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+  border-left: 1px solid rgba(0, 0, 0, 0.144);
+  border-right: 1px solid rgba(0, 0, 0, 0.103);
+}
+
+.customer-comment::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.171);
+  width: 98%;
+  height: 1px;
+  position: absolute;
+  margin-left: -70px;
+  margin-top: -10px;
+}
+
+/*SIZE*/

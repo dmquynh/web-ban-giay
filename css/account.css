@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d5d4e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 360px;
+  height: 460px;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 30px;
+  top: 85px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 95%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-bottom-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-bottom-color: #c4623f;
+}
+
+label {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  color: #999;
+  transition: top 0.3s, font-size 0.3s;
+  font-size: 16px;
+  cursor: text;
+}
+
+/* input[type="text"]:focus ~ label,
+input[type="password"]:focus ~ label,
+input[type="text"]:valid ~ label,
+input[type="password"]:valid ~ label {
+  top: -12px;
+  font-size: 12px;
+  color: #c4623f;
+}
+
+input[type="text"]:focus {
+  top: -12px;
+} */
+
+input[type="submit"] {
+  background-color: #c4623f;
+  color: white;
+  padding: 10px 70px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 114px;
+}
+
+.focused label {
+  top: -20px;
+  font-size: 12px;
+  color: #333;
+}
+
+input[type="submit"]:hover {
+  background-color: #df7954;
+}
+
+.icon-acc {
+  position: absolute;
+  left: 325px;
+  top: 4px;
+  width: 34px;
+  height: 34px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.514);
+}
+
+.forget {
+  position: relative;
+  top: 79px;
+  text-decoration: none;
+  /* font-size: 14px; */
+  left: 99px;
+}

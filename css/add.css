@@ -1,0 +1,153 @@
+.container-content {
+  height: auto;
+}
+
+.container-content form {
+  padding-left: 20px;
+}
+
+form p {
+  height: 90px;
+}
+
+form h3 {
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.658);
+}
+
+form label {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+.cate-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+}
+
+.cate-info input[type="text"],
+.cate-info input[type="date"],
+select {
+  height: 41px;
+  width: 452px;
+  padding-left: 13px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.212);
+  border-radius: 10px;
+  outline: none;
+}
+
+.cate-info input[type="text"] {
+  color: rgba(0, 0, 0, 0.425);
+  font-weight: bold;
+}
+
+.cate-info input[type="text"]::placeholder {
+  color: rgba(0, 0, 0, 0.425);
+}
+
+.cate-info input[type="text"]:focus,
+.cate-info input[type="date"]:focus,
+select:focus {
+  box-shadow: 0 0 0 4px brown;
+}
+
+.status-checkbox input[type="radio"] {
+  margin-top: 20px;
+}
+
+.status-checkbox span {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.596);
+}
+
+select {
+  width: 470px;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.425);
+}
+
+.cate-info input[type="date"] {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.425);
+}
+
+.cate-img {
+  margin-top: 24px;
+}
+
+.cate-img img {
+  background-color: rgba(223, 226, 225, 0.438);
+  border-radius: 10px;
+}
+
+form input[type="submit"] {
+  background-color: rgba(159, 54, 26);
+  border: 1px solid rgba(159, 54, 26);
+  padding: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+form input[type="submit"]:hover {
+  background-color: rgb(221, 74, 33);
+  border: 1px solid rgb(221, 74, 33);
+}
+
+#myButton {
+  color: red;
+  position: relative;
+  top: 25px;
+  cursor: pointer;
+}
+
+#myButton1 {
+  position: relative;
+  left: 520px;
+  cursor: pointer;
+}
+
+#myDiv {
+  position: fixed;
+  left: 780px;
+  top: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  z-index: 1;
+  box-shadow: 0 0 0 2px rgba(87, 86, 86, 0.171);
+  transition: 0.5s all;
+}
+
+@keyframes iden {
+  0% {
+    transform: translateX(780px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+#myDiv input[type="text"] {
+  width: 500px;
+}
+
+#myDiv p {
+  height: 80px;
+}
+
+#myDiv p label {
+  position: relative;
+  top: 3px;
+  left: 6px;
+}

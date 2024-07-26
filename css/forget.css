@@ -1,0 +1,71 @@
+.container-forget {
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: -43px;
+  height: 500px;
+}
+
+.box {
+  width: 500px;
+  height: 275px;
+  border: 1px solid rgba(0, 0, 0, 0.089);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.041);
+}
+
+.box p {
+  font-size: 20px;
+}
+
+.bx-arrow-back {
+  font-size: 30px;
+  color: brown;
+}
+
+input[type="text"] {
+  height: 40px;
+  width: 338px;
+  padding-left: 15px;
+  margin-left: 82px;
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.164);
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.616);
+  border-radius: 5px;
+}
+
+#forget {
+  margin-left: 84px;
+  margin-top: 19px;
+  width: 335px;
+}
+
+input[type="text"]:focus {
+  outline: 1px solid rgba(0, 0, 0, 0.664);
+}
+
+div:where(.swal2-container).swal2-center > .swal2-popup {
+  grid-column: 2;
+  grid-row: 2;
+  place-self: center center;
+  height: 400px;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  margin-top: 158px;
+}
+
+div:where(.swal2-container) .swal2-html-container {
+  z-index: 1;
+  justify-content: center;
+  margin: 1em 1.6em 0.3em;
+  padding: 0;
+  overflow: auto;
+  color: inherit;
+  font-size: 1.125em;
+  font-weight: normal;
+  line-height: normal;
+  text-align: center;
+  word-wrap: break-word;
+  word-break: break-word;
+  line-height: 30px;
+}

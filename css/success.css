@@ -1,0 +1,26 @@
+.success {
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 20px;
+}
+
+.continue {
+  text-decoration: none;
+  background-color: rgb(255, 30, 0);
+  color: white;
+  font-weight: bold;
+  padding: 10px 75px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.view {
+  text-decoration: none;
+  padding: 10px 70px;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 30, 0);
+  color: rgb(255, 30, 0);
+  width: 145px;
+  left: 440px;
+  top: 0px;
+}
